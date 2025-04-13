@@ -5,6 +5,10 @@
 }
 header{
     height: 90px;
+    margin-bottom: 127px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
 }
 body {
     font-family: sans-serif;
@@ -15,9 +19,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
     background-color: #181818;
     color: white;
+    margin: auto;
+    width: 1640px;
 }
 
 .secleft, .secright {
@@ -81,7 +86,8 @@ button {
 main{
     margin: auto;
     width: 1640px;
-    margin-top: 127px;
+    align-items: center;
+    
 }
 .text{
     font-family: var(--font-family);
@@ -155,6 +161,7 @@ main{
     font-size: 16px;
     line-height: 187%;
     text-align: center;
+    text-justify: center;
     color: #fff;
     opacity: 0.5;
     background-color: rgb(129, 127, 127);
@@ -172,9 +179,9 @@ main{
     color: #fff;
 }   
 .arrow{
-    position: absolute;
-    top: 744px;
-    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100px;
     width: 70px;
     height: 70px;
@@ -183,7 +190,7 @@ main{
 .courusel{
     display: flex;
     position: relative;
-    transform: translateX(-415px);
+    transform: translateX(-370px);
     width: 2725px;
     justify-content: space-between;
     margin: 44px auto auto auto;
@@ -271,5 +278,148 @@ main{
     font-weight: 500;
     font-size: 16px;
     line-height: 187%;
+    color: #fff;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 100px;
+    right: 24px;
+    left: 24px;
+}   
+.blocktitle svg{
+    margin-left: 16px;
+}
+.blocktitle{
+    display: flex;
+    align-items: center;
+    width: 438px;
+    height: 32px;
+    margin-top: 100px;
+    margin-bottom: 44px;
+}
+.blocktitle .txt{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 75%;
+    color: #fff;
+    
+}
+.boks{
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+    height: 416px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.price{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 120px;
+    padding: 4px 12px;
+    width: 116px;
+    height: 38px;
+    
+    text-align: center;
+    text-justify: center;
+}
+.zagolovok{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    color: #fff;
+    margin-top: 12px;
+}
+.time{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #999;
+    margin-top: 2px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    width: 525px;
+    height: 342px;
+    border-radius: 32px;
+}
+footer{
+    width: 100%;
+    height: 345px;
+    background-color: #181818;
+}
+footer .header{
+    margin: auto;
+    background-color: #181818;
+    margin-bottom: 30px;
+    width: 1640px;
+    padding-top: 64px;
+}
+.separator{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 1640px;
+    height: 0px;
+    
+    margin: auto;
+}
+.podfoot1{
+    display: grid;
+    grid-template-columns: 114px 114px;
+    grid-template-rows: repeat(3,38px);
+}
+.secsia{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+}
+.z{
+    font-weight: 700;
+}
+.footerbot{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1649px;
+    height: 114px;
+}
+.podfoot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    width: 264px;
+    height: 114px;
+}
+.logoinsta{
+    display: flex;
+    width: 88px;
+    height: 36px;
+}
+.lasttext{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
     color: #fff;
 }
